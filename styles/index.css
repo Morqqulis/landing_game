@@ -1,6 +1,42 @@
-@import './reset.css';
+@import "./reset.css";
 
 /* ----------------------------------------- */
 
+.req {
+  min-height: 100vh;
+  background-image: url("../img/Group\ 2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 145px;
+  padding-bottom: 175px;
+}
 
+.req__img {
+  /* Group 2 */
+  width: 1441.58px;
+  height: 960.16px;
+}
 
+.req__text {
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
+  text-align: center;
+
+  margin: 25;
+}
+.req__p {
+  margin-bottom: 8px;
+}
+.req__h2 {
+  font-size: 80px;
+}
+.box {
+  color: aliceblue;
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-weight: 400;
+}
