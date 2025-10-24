@@ -42,6 +42,24 @@ select {
 	color: #000;
 }
 
+.header__actions {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+
+.header__line {
+	width: 1px;
+	background-color: #fff;
+	height: 30px;
+}
+
+.header__box {
+	display: flex;
+	gap: 17px;
+	align-items: center;
+}
+
 .logo {
 	display: flex;
 	justify-content: flex-start;
@@ -86,22 +104,4 @@ select {
 	font-weight: 700;
 	padding: 20px 16px;
 	border-radius: 4px;
-}
-
-.header__actions {
-	display: flex;
-	gap: 24px;
-	align-items: center;
-}
-
-.header__line {
-	width: 1px;
-	background-color: #fff;
-	height: 30px;
-}
-
-.header__box {
-	display: flex;
-	gap: 17px;
-	align-items: center;
 }
