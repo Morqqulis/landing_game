@@ -1,6 +1,4 @@
-@import "./reset.css";
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import './reset.css';
 
 /* ----------------------------------------- */
 .container {
@@ -8,8 +6,5 @@
   padding: 0 15px;
   max-width: 1230px;
 }
-/* ----------------------------------------- */
 
-.features__img {
-  background: url(../images/Group.jpg) no-repeat center / cover;
-}
+/* ----------------------------------------- */
