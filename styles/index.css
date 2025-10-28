@@ -74,7 +74,7 @@ select {
 /* ----------------------------------------- */
 
 .hero {
-  background: url("../img/bg\ image\ 1.jpg") no-repeat center / cover;
+  background: url("../img/hero-bg.jpg") no-repeat center / cover;
 }
 
 .hero__content {
