@@ -112,16 +112,20 @@ select {
   padding-top: 145px;
   padding-bottom: 175px;
 }
+
 .req__text {
   text-align: center;
   margin-bottom: 133px;
 }
+
 .req__p {
   margin-bottom: 8px;
 }
+
 .req__h2 {
   font-size: 80px;
 }
+
 .box {
   color: aliceblue;
   font-family: Bebas Neue;
@@ -131,22 +135,27 @@ select {
   max-width: 573.2px;
   min-height: 400.69px;
 }
+
 .box_os {
   margin-bottom: 24px;
   border: 2px solid rgba(255, 255, 255, 1);
 }
+
 .box_mEMORY {
   margin-bottom: 24px;
   border: 2px solid rgba(255, 255, 255, 1);
 }
+
 .box__pROCESSOR {
   margin-bottom: 24px;
   border: 2px solid rgba(255, 255, 255, 1);
 }
+
 .box__storage {
   margin-bottom: 24px;
   border: 2px solid rgba(255, 255, 255, 1);
 }
+
 .box__GRAPHICS {
   margin-bottom: 24px;
   border: 2px solid rgba(255, 255, 255, 1);
@@ -162,16 +171,44 @@ select {
 
 
 
-.sub {
-  
-}
-.container {
-}
+
+.sub {}
+
+.container {}
+
 .sub__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.sub__qustion {
-}
-.sub__name {
-}
+
+.sub__qustion {}
+
+.sub__name {}
+
 .sub__info {
+  max-width: 680px;
+}
+
+.sub__span {
+  color: #979797;
+  display: block;
+}
+
+.sub__now {
+  background-color: #f3af34;
+  color: #000;
+  width: 260px;
+  height: 60px;
+  border-radius: 4px;
+
+}
+
+.sub__email {
+  background-color: #1a1917;
+  color: #ffb548;
+  width: 366px;
+  height: 60px;
+  border-radius: 5px;
+
 }
