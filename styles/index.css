@@ -3,6 +3,7 @@
 
 body {
   color: white;
+  background-color: #000;
 }
 
 .wrapper {
@@ -157,4 +158,19 @@ select {
 
 .box__item {
   padding: 15px 0 31px 20px;
+}
+
+
+
+.sub {
+}
+.container {
+}
+.sub__content {
+}
+.sub__qustion {
+}
+.sub__name {
+}
+.sub__info {
 }
