@@ -160,13 +160,10 @@ select {
   padding: 15px 0 31px 20px;
 }
 .box__p {
-color: rgba(255, 181, 72, 1);
+  color: rgba(255, 181, 72, 1);
 }
 
-
-
 .sub {
-  
 }
 .container {
 }
