@@ -4,6 +4,7 @@
 body {
   color: white;
   background-color: #000;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .wrapper {
@@ -188,12 +189,18 @@ select {
   justify-content: space-between;
 }
 
-.sub__qustion {}
+.sub__qustion {
+  margin-bottom: 5px;
+}
 
-.sub__name {}
+.sub__name {
+  font-size: 55px;
+  margin-bottom: 40px;
+}
 
 .sub__info {
-  max-width: 680px;
+  max-width: 500px;
+  margin-bottom: 45px;
 }
 
 .sub__span {
@@ -201,20 +208,37 @@ select {
   display: block;
 }
 
+.sub__links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
 .sub__now {
   background-color: #f3af34;
   color: #000;
-  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 260px;
   height: 60px;
   border-radius: 4px;
+
 
 }
 
 .sub__email {
   background-color: #1a1917;
   color: #ffb548;
-  width: 366px;
-  height: 60px;
+  max-width: 366px;
+  min-height: 60px;
+  width: 100%;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: star;
+  justify-content: center;
+  padding-left: 21px;
 
 }
